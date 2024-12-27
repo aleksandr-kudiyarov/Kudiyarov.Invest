@@ -7,8 +7,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Kudiyarov.Invest.Bll.DependencyInjection\Kudiyarov.Invest.Bll.DependencyInjection.csproj" />
       <ProjectReference Include="..\Kudiyarov.Invest.Common\Kudiyarov.Invest.Common.csproj" />
-      <ProjectReference Include="..\Kudiyarov.Invest.TinkoffClient.DependencyInjection\Kudiyarov.Invest.TinkoffClient.DependencyInjection.csproj" />
+      <ProjectReference Include="..\Kudiyarov.Invest.Dal.DependencyInjection\Kudiyarov.Invest.Dal.DependencyInjection.csproj" />
     </ItemGroup>
 
 </Project>

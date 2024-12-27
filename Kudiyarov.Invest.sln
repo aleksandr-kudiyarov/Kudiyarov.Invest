@@ -6,7 +6,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudiyarov.Invest.TinkoffCli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudiyarov.Invest.Common", "Kudiyarov.Invest.Common\Kudiyarov.Invest.Common.csproj", "{FDE3F397-7E4F-4966-9B8A-28A4E4270779}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudiyarov.Invest.TinkoffClient.DependencyInjection", "Kudiyarov.Invest.TinkoffClient.DependencyInjection\Kudiyarov.Invest.TinkoffClient.DependencyInjection.csproj", "{A5302D40-62C6-4186-985B-7DB83156B4B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudiyarov.Invest.Dal.DependencyInjection", "Kudiyarov.Invest.Dal.DependencyInjection\Kudiyarov.Invest.Dal.DependencyInjection.csproj", "{A5302D40-62C6-4186-985B-7DB83156B4B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudiyarov.Invest.Bll", "Kudiyarov.Invest.Bll\Kudiyarov.Invest.Bll.csproj", "{ABBF6F2C-F39F-401F-A965-4D1F284913B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PL", "PL", "{5BAFD058-B1AA-4B2B-81C8-05A0F6B0A735}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{8EE6FA92-9620-41E8-B2A6-DD0FBC605BCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{8D44ECC7-7D23-477E-9A34-810933CDF8E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{DAE78914-2E8C-4296-82E2-AE9FA072E1F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudiyarov.Invest.Dal.Interfaces", "Kudiyarov.Invest.Dal.Interfaces\Kudiyarov.Invest.Dal.Interfaces.csproj", "{DB17D885-CB8E-4F93-835D-5042005441FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudiyarov.Invest.Bll.Interfaces", "Kudiyarov.Invest.Bll.Interfaces\Kudiyarov.Invest.Bll.Interfaces.csproj", "{011918E3-103D-400F-85AA-E56ECE28E92E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudiyarov.Invest.Bll.DependencyInjection", "Kudiyarov.Invest.Bll.DependencyInjection\Kudiyarov.Invest.Bll.DependencyInjection.csproj", "{A93D93A9-C235-4624-8E8D-9EA5CB9386AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +46,31 @@ Global
 		{A5302D40-62C6-4186-985B-7DB83156B4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5302D40-62C6-4186-985B-7DB83156B4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5302D40-62C6-4186-985B-7DB83156B4B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBF6F2C-F39F-401F-A965-4D1F284913B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBF6F2C-F39F-401F-A965-4D1F284913B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBF6F2C-F39F-401F-A965-4D1F284913B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBF6F2C-F39F-401F-A965-4D1F284913B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB17D885-CB8E-4F93-835D-5042005441FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB17D885-CB8E-4F93-835D-5042005441FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB17D885-CB8E-4F93-835D-5042005441FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB17D885-CB8E-4F93-835D-5042005441FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{011918E3-103D-400F-85AA-E56ECE28E92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{011918E3-103D-400F-85AA-E56ECE28E92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{011918E3-103D-400F-85AA-E56ECE28E92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{011918E3-103D-400F-85AA-E56ECE28E92E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A93D93A9-C235-4624-8E8D-9EA5CB9386AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A93D93A9-C235-4624-8E8D-9EA5CB9386AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A93D93A9-C235-4624-8E8D-9EA5CB9386AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A93D93A9-C235-4624-8E8D-9EA5CB9386AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDE3F397-7E4F-4966-9B8A-28A4E4270779} = {DAE78914-2E8C-4296-82E2-AE9FA072E1F2}
+		{0374FB6D-C3DF-40C8-B1EC-FD5EBBB93F6F} = {8D44ECC7-7D23-477E-9A34-810933CDF8E1}
+		{A5302D40-62C6-4186-985B-7DB83156B4B1} = {8D44ECC7-7D23-477E-9A34-810933CDF8E1}
+		{ABBF6F2C-F39F-401F-A965-4D1F284913B7} = {8EE6FA92-9620-41E8-B2A6-DD0FBC605BCE}
+		{9BDA339D-C24D-4ADE-9CE5-98B91EEA714B} = {5BAFD058-B1AA-4B2B-81C8-05A0F6B0A735}
+		{DB17D885-CB8E-4F93-835D-5042005441FA} = {8D44ECC7-7D23-477E-9A34-810933CDF8E1}
+		{011918E3-103D-400F-85AA-E56ECE28E92E} = {8EE6FA92-9620-41E8-B2A6-DD0FBC605BCE}
+		{A93D93A9-C235-4624-8E8D-9EA5CB9386AA} = {8EE6FA92-9620-41E8-B2A6-DD0FBC605BCE}
 	EndGlobalSection
 EndGlobal
