@@ -6,4 +6,9 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Kudiyarov.Invest.Common\Kudiyarov.Invest.Common.csproj" />
+      <ProjectReference Include="..\Kudiyarov.Invest.TinkoffClient.DependencyInjection\Kudiyarov.Invest.TinkoffClient.DependencyInjection.csproj" />
+    </ItemGroup>
+
 </Project>
