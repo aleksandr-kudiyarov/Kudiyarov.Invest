@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudiyarov.Invest", "Kudiyarov.Invest\Kudiyarov.Invest.csproj", "{9BDA339D-C24D-4ADE-9CE5-98B91EEA714B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudiyarov.Invest.TinkoffClient", "Kudiyarov.Invest.TinkoffClient\Kudiyarov.Invest.TinkoffClient.csproj", "{0374FB6D-C3DF-40C8-B1EC-FD5EBBB93F6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BDA339D-C24D-4ADE-9CE5-98B91EEA714B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDA339D-C24D-4ADE-9CE5-98B91EEA714B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDA339D-C24D-4ADE-9CE5-98B91EEA714B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDA339D-C24D-4ADE-9CE5-98B91EEA714B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0374FB6D-C3DF-40C8-B1EC-FD5EBBB93F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0374FB6D-C3DF-40C8-B1EC-FD5EBBB93F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0374FB6D-C3DF-40C8-B1EC-FD5EBBB93F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0374FB6D-C3DF-40C8-B1EC-FD5EBBB93F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
